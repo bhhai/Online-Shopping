@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+.navbar {
+    font-size: 13px;
+    font-weight: 600;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.nav-item {
+    cursor: pointer;
+}
+
+.icon {
+    font-size: 36px;
+    color: red;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.collection {
+    overflow: hidden;
+}
+
+
+/* New */
+
+.new__title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.new {
+    margin-top: 100px;
+}
+
+.new__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+.new__name {
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.new__a {
+    font-size: 13px;
+    color: #959997;
+    margin-bottom: 10px;
+}
+
+.new__price {
+    color: red;
+}
+
+.content {
+    background-color: #f7f7f7;
+}
+
+.content__title {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.products {
+    position: relative;
+    cursor: pointer;
+}
+
+.new__icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.ic1,
+.ic2,
+.ic3 {
+    opacity: 0;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+.products:hover .ic1 {
+    transition-delay: .12s;
+    transform: translateY(-70px);
+    opacity: 1;
+}
+
+.products:hover .ic2 {
+    transition-delay: .24s;
+    transform: translateY(-70px);
+    opacity: 1;
+}
+
+.products:hover .ic3 {
+    transition-delay: .36s;
+    transform: translateY(-70px);
+    opacity: 1;
+}
+
+.shopping-icon {
+    color: #fff;
+    background-color: #000;
+    margin: 0 20px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.ani-click {
+    color: red;
+}
+
+
+/* Review */
+
+.review__avt {
+    text-align: center;
+}
+
+.avt {
+    border-radius: 50%;
+}
+
+.sl__review {
+    margin: 100px 0;
+}
+
+.carousel-indicators {
+    margin-bottom: -80px;
+    color: #000;
+}
